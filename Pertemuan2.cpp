@@ -1,8 +1,14 @@
-#include <iostream>     //library untuk dapat menggunakan fungsi cin & cout
-using namespace std;    //agar tidak perlu mengetik std:: pada fungsi cin & cout
+#include <iostream>
 
-int main() {               //function utama
-    cout<<"Hello World";   //mencetak "Hello World" pada terminal
+using namespace std;
 
-    return 0;      //mengembalikan nilai 0 atau tanda bahwa program telah selesai
+int main() {
+    string nama = "Khalid Al Hafiza";
+    string NPM = "2517051021";
+
+    cout << "Selamat Datang Di Praktikum Pengenalan Pemrograman" << endl;
+    cout << "Nama saya adalah " << nama << endl;
+    cout << "NPM saya adalah " << NPM << endl << endl;
+    cout << "Unila Indah" << endl;
+    cout << "Be Strong" << endl;
 }
